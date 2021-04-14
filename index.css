@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+  background-color: #131313;
+  color: #ffc200;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+}
+
+.input {
+  background-color: #131313;
+  color: white;
+  height: 5vh;
+  width: 50vw;
+  font-size: 3vh;
+  margin-top: 1vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0px 0px 0px 10px;
+}
+
+.input_not_bottom {
+  margin-bottom: 5vh;
+}
+
+.label {
+  color: inherit;
+}
+
+#sendButton {
+  border: 3px solid #131313;
+  border-radius: 10px;
+  color: #131313;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /*margin: 0px 2px;*/
+  cursor: pointer;
+  background-color: #ffc200;
+  height: 10vh;
+  width: 51vw;
+  font-size: 4vh;
+}
+
+.about {
+  font-size: 2vh;
+  color: inherit;
+  width: 50vw;
+  display: table;
+  text-align: center;
+}
+
+#author, #source, #rest{
+  display:table-cell;
+  width:33.33vw;
+  padding-top: 3vh;
+}
+
+
+a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1441px) {
+  body {
+    background-color: #131313;
+    color: #ffc200;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+  }
+
+  .interface {
+
+  }
+
+  .input {
+    background-color: #131313;
+    color: white;
+    height: 5vh;
+    width: 80vw;
+    font-size: 2vh;
+    margin-top: 1vh;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .input_not_bottom {
+    margin-bottom: 5vh;
+  }
+
+  .label {
+    color: inherit;
+    font-size: 4vh;
+  }
+
+  #sendButton {
+    border: 3px solid #131313;
+    border-radius: 10px;
+    color: #131313;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ffc200;
+    height: 10vh;
+    width: 80vw;
+    font-size: 4vh;
+  }
+}

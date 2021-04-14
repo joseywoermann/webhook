@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Webhook Sender</title>
+    <link rel="icon" href="favicon.ico" />
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="interface">
+        <label class="label" for="webhookUrl">Webhook-URL:</label>
+        <br>
+        <input class = "input_not_bottom input" type="url" name="webhookUrl" id="webhookUrl" autocomplete="off" placeholder="https://discord.com/api/webhooks/" />
+        <br>
+        <label class="label" for="webhookText">Message:</label>
+        <br>
+        <input class = "input_not_bottom input" type="text" name="webhookText" id="webhookText" autocomplete="off" placeholder="Never gonna give you up..." />
+        <br>
+        <label class="label" for="webhookName">Webhook name:</label>
+        <br>
+        <input class = "input_not_bottom input" type="text" name="webhookName" id="webhookName" autocomplete="off" placeholder="Captain Hook" />
+        <br>
+        <label class="label" for="webhookImage">Webhook Image:</label>
+        <br>
+        <input class = "input" type="text" name="webhookImage" id="webhookImage" autocomplete="off" placeholder="https://discord.com/assets/6debd47ed13483642cf09e832ed0bc1b.png" />
+      </div>
+      <br>
+      <button id="sendButton" onclick="sendWebhook(); disableButton();">Send</button>
+      <br>
+      <div class="about">
+        <a id="source" href="https://github.com/joseywoermann/webhook-sender">View on GitHub</a>
+        <p id="author" >by joseywoermann</p>
+        <p id="rest">2021</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var input = document.getElementById("webhookText");
+      input.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("sendButton").click();
+        }
+      });
+    </script>
+  </body>
+</html>
