@@ -9,3 +9,8 @@ A website that allows you to send custom text to Discord webhooks.
 * next, open [the web-interface](https://jcw05.ml/webhook-sender) and paste your webhook-URl into the first field (`Webhook-URL`)
 * in the second field (`Message`), write whatever you want to send to your Discord channel
 * If you want to, you can also enter a specific username for the webhook and set a profile picture. These fields are optional though!
+* After you entered all data, klick on the `send` button. You should see your message appearing within a second.
+
+## Support
+
+if you need help, refer to [this page](https://gist.github.com/joseywoermann/c1a9c07f6b46563b0c552c1724e185cf).
