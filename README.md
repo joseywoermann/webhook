@@ -1,6 +1,6 @@
 # webhook-sender
 
-A website that allows you to send custom text to Discord webhooks. 
+A tool that allows you to send custom text to Discord webhooks. 
 
 ## Usage
 
