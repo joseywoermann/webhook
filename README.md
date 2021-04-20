@@ -14,3 +14,7 @@ A website that allows you to send custom text to Discord webhooks.
 ## Support
 
 If you need help, please refer to [this page](https://gist.github.com/joseywoermann/c1a9c07f6b46563b0c552c1724e185cf).
+
+## TODO:
+* make a mobile-friendly version of the page
+* add labels to explain that fileds 3 & 4 are optional
