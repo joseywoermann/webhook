@@ -11,7 +11,7 @@ function sendWebhook() {
       avatar_url: pp,
     })
       .done(function() {
-        alert("Webhook sent successfully!\nYour next request will processed in 2 seconds.")
+        alert("Webhook sent successfully!\nYour next request will be processed in 2 seconds.")
         console.log("Successfully sent request to " + url);
       })
       .fail(function() {
