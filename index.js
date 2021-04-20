@@ -19,7 +19,7 @@ function sendWebhook() {
         console.log("Failed due to unexpected error.");
       })
   } else {
-    alert("Please enter a valid Discord-webhook url and text!");
+    alert("Please enter a valid Discord-webhook URL and text!");
   }
 }
 
