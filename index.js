@@ -11,7 +11,7 @@ function sendWebhook() {
       avatar_url: pp,
     })
       .done(function() {
-        alert("Webhook sent successfully!\nYour next request will be processed in 3 seconds.")
+        alert("Webhook sent successfully!\nYour next request will can processed in 2 seconds.")
         console.log("Successfully sent request to " + url);
       })
       .fail(function() {
@@ -27,5 +27,5 @@ function disableButton() {
   document.getElementById("sendButton").disabled = true;
   setTimeout(function () {
     document.getElementById("sendButton").disabled = false;
-  }, 3000);
+  }, 2000);
 }
